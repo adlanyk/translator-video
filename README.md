@@ -179,6 +179,13 @@ Program akan:
 subtitle_indonesia.srt
 final_video.mp4
 ```
+## Screenshot
+
+<p align="center">
+  <img src="screenshots/11.png" width="800">
+  <img src="screenshots/21.png" width="800">
+  <img src="screenshots/3.png" width="800">
+</p>
 
 ---
 
