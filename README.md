@@ -182,9 +182,9 @@ final_video.mp4
 ## Screenshot
 
 <p align="center">
-  <img src="screenshot/11.png" width="800">
-  <img src="screenshot/21.png" width="800">
-  <img src="screenshot/3.png" width="800">
+  <img src="screenshoot/11.png" width="800">
+  <img src="screenshoot/21.png" width="800">
+  <img src="screenshoot/3.png" width="800">
 </p>
 
 ---
