@@ -49,13 +49,15 @@ python translator.py
 subtitle_indonesia.srt - File subtitle (bisa dipakai sendiri)
 
 final_video_with_subtitle.mp4 - Video dengan subtitle permanen
+---
 
-## 📁 Struktur Project
+
+## 🚀 Cara Pakai 📁 Struktur Project
 ├── translator.py          # Script utama
 ├── video_inggris.mp4      # Video sumber (taruh di sini)
 ├── subtitle_indonesia.srt # Hasil subtitle
 └── final_video.mp4        # Video jadi
-
+---
 ## 🔧 Customisasi
 model = whisper.load_model("tiny")   # Cepat, kurang akurat
 model = whisper.load_model("base")   # Standar (rekomendasi)
