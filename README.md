@@ -1,70 +1,189 @@
-# 🎬 Video Subtitle Translator
+# 🎬 English Video → Indonesian Subtitle Generator
 
-> **English Video → Indonesian Subtitle** secara otomatis menggunakan AI
+> 🚀 Otomatis menerjemahkan video berbahasa Inggris menjadi subtitle Bahasa Indonesia menggunakan AI.
 
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
-[![Whisper](https://img.shields.io/badge/OpenAI-Whisper-purple.svg)](https://github.com/openai/whisper)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
----
-
-## 📌 Tentang Project
-
-Tools sederhana untuk menambahkan **subtitle Bahasa Indonesia** ke video berbahasa Inggris secara otomatis.
-
-### 🎯 Cocok Untuk
-
-| Pengguna | Kebutuhan |
-|----------|-----------|
-| Content Creator | Subtitle cepat untuk konten |
-| Pendidik | Video edukasi dari sumber internasional |
-| Umum | Memahami video Inggris lebih mudah |
+![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
+![Whisper](https://img.shields.io/badge/OpenAI-Whisper-purple.svg)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-Required-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
-## ⚙️ Cara Kerja
+# 📖 Deskripsi
 
-| Step | Proses | Tools |
-|:----:|--------|-------|
-| 1 | Mengenali suara Inggris | OpenAI Whisper |
-| 2 | Menerjemahkan ke Indonesia | Google Translate |
-| 3 | Menempel subtitle ke video | FFmpeg |
+Pernah menemukan video berbahasa Inggris tetapi kesulitan memahami percakapannya?
+
+Project ini membantu Anda:
+
+✅ Mengubah suara bahasa Inggris menjadi teks otomatis  
+✅ Menerjemahkan teks ke Bahasa Indonesia  
+✅ Membuat file subtitle (.srt)  
+✅ Menempel subtitle langsung ke video
+
+Semua proses dilakukan secara otomatis menggunakan teknologi AI.
 
 ---
 
-## 🚀 Instalasi & Penggunaan
+# 🎯 Cocok Untuk
 
-### 1. Install Dependencies
+| Pengguna | Manfaat |
+|-----------|-----------|
+| 🎥 Content Creator | Membuat subtitle konten lebih cepat |
+| 👨‍🏫 Guru & Dosen | Menggunakan video luar negeri untuk pembelajaran |
+| 🎓 Mahasiswa | Memahami video edukasi berbahasa Inggris |
+| 🌍 Umum | Menonton video internasional dengan mudah |
 
-```bash
-# Install FFmpeg (WAJIB)
-# Windows: download dari ffmpeg.org
-# macOS : brew install ffmpeg
-# Linux : sudo apt install ffmpeg
+---
 
-# Install library Python
-pip install openai-whisper deep-translator
+# ⚡ Cara Kerja
 
-# Ganti nama file video sesuai kebutuhan
-video_path = "video_inggris.mp4"
+```text
+Video Inggris
+      │
+      ▼
+OpenAI Whisper
+(Speech-to-Text)
+      │
+      ▼
+Google Translate
+(English → Indonesia)
+      │
+      ▼
+Subtitle (.srt)
+      │
+      ▼
+FFmpeg
+(Burn Subtitle)
+      │
+      ▼
+Video Final Indonesia
+```
 
-# Eksekusi script
-python translator.py
+---
 
+# 📂 Struktur Project
+
+```text
 project-folder/
 │
-├── translator.py              # Script utama
-├── video_inggris.mp4          # Video sumber (taruh di sini)
-├── subtitle_indonesia.srt     # Hasil subtitle
-├── final_video.mp4            # Video jadi
+├── translator.py
+├── video_inggris.mp4
 │
-├── README.md                  # Dokumentasi
+├── subtitle_indonesia.srt
+├── final_video.mp4
+│
+└── README.md
+```
 
 ---
 
- 🔧 Customisasi 
+# 🔥 Fitur
 
-Model Whisper (Kecepatan vs Akurasi)
-model = whisper.load_model("tiny")   # ⚡ Cepat, kurang akurat
-model = whisper.load_model("base")   # 👍 Standar (rekomendasi)
-model = whisper.load_model("small")  # 📈 Lebih akurat, lebih lambat
+- Automatic Speech Recognition (ASR)
+- Subtitle Bahasa Indonesia Otomatis
+- Support MP4 Video
+- Menggunakan AI Whisper
+- Hasil Subtitle Format SRT
+- Burn Subtitle ke Video
+- Gratis dan Open Source
+
+---
+
+# 🖥️ Persyaratan Sistem
+
+### Minimum
+
+- Python 3.7+
+- RAM 4 GB
+- FFmpeg
+
+### Rekomendasi
+
+- Python 3.10+
+- RAM 8 GB+
+- SSD Storage
+
+---
+
+# 📦 Instalasi
+
+## 1. Install FFmpeg
+
+### Windows
+
+Download:
+
+https://ffmpeg.org/download.html
+
+Pastikan ffmpeg sudah masuk ke PATH.
+
+```bash
+ffmpeg -version
+```
+
+### Linux
+
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+
+### macOS
+
+```bash
+brew install ffmpeg
+```
+
+---
+
+## 2. Install Python Library
+
+```bash
+pip install openai-whisper deep-translator
+```
+
+---
+
+# 🚀 Cara Penggunaan
+
+## 1. Masukkan Video
+
+Taruh video yang ingin diterjemahkan ke folder project.
+
+## 2. Atur Nama Video
+
+```python
+video_path = "video_inggris.mp4"
+```
+
+## 3. Jalankan Program
+
+```bash
+python translator.py
+```
+
+## 4. Tunggu Proses Selesai
+
+Program akan:
+1. Membaca suara video
+2. Membuat transkripsi bahasa Inggris
+3. Menerjemahkan ke Bahasa Indonesia
+4. Membuat file subtitle
+5. Menempel subtitle ke video
+
+---
+
+# 📁 Output
+
+```text
+subtitle_indonesia.srt
+final_video.mp4
+```
+
+---
+
+# 📜 License
+
+MIT License
+
+⭐ Jika project ini membantu, jangan lupa berikan Star di GitHub.
