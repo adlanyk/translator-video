@@ -1,0 +1,108 @@
+1
+00:00:01,439 --> 00:00:08,919
+Apa itu malware dan ransomware? Video ini akan mendefinisikan malware, mendefinisikan ransomware, dan
+
+2
+00:00:08,919 --> 00:00:14,820
+menguraikan bagaimana ransomware dapat mempengaruhi dewan. Istilah malware menggabungkan kata berbahaya
+
+3
+00:00:14,820 --> 00:00:21,160
+dan perangkat lunak. Ini mengacu pada perangkat lunak apa pun yang dirancang untuk menimbulkan bahaya. Ransomware adalah
+
+4
+00:00:21,160 --> 00:00:25,760
+jenis malware tertentu yang dirancang untuk mencegah organisasi mengaksesnya
+
+5
+00:00:25,760 --> 00:00:31,640
+sistem komputer dan data. Purportrait sebagai serangan ransomware akan memanfaatkan kurangnya akses ini
+
+6
+00:00:31,640 --> 00:00:38,200
+sebagai leverage untuk meminta sejumlah uang tebusan, biasanya berupa pembayaran. Yang penting, pelakunya mungkin
+
+7
+00:00:38,200 --> 00:00:44,880
+atau mungkin tidak memulihkan akses ke sistem dan data setelah menerima pembayaran. Dewan tidak boleh mempertimbangkan
+
+8
+00:00:44,880 --> 00:00:50,039
+membayar uang tebusan. Hal ini bertentangan dengan kebijakan pemerintah pusat dan penegak hukum Inggris.
+
+9
+00:00:50,920 --> 00:00:54,960
+Tindakan tersebut dapat dianggap ilegal jika dikaitkan dengan teroris dan tindak pidana lainnya
+
+10
+00:00:54,960 --> 00:01:01,420
+aktivitas. Membayar akan membuat organisasi lebih mungkin menjadi sasaran. Sektor itu
+
+11
+00:01:01,420 --> 00:01:07,760
+diketahui membayar telah melihat lonjakan serangan ransomware. Malware dan ransomware dapat menyebabkan masalah serius
+
+12
+00:01:07,760 --> 00:01:14,099
+kerusakan pada aset dan operasi dewan. Mari kita ambil contoh, seorang petugas dewan yang membuka a
+
+13
+00:01:14,099 --> 00:01:20,659
+lampiran email mencurigakan yang memungkinkan ransomware masuk ke sistem TI dewan. Ransomware
+
+14
+00:01:20,659 --> 00:01:26,620
+mengenkripsi data dewan dan cadangan data, menjadikannya tidak dapat dipahami. Hal ini menyebabkan dewan
+
+15
+00:01:26,620 --> 00:01:32,319
+komputer petugas menjadi tidak dapat digunakan. Penyerang akan meminta sejumlah besar uang untuk memulihkannya
+
+16
+00:01:32,319 --> 00:01:36,939
+datanya, namun dewan menolak membayar karena tidak ada jaminan data tersebut benar
+
+17
+00:01:36,939 --> 00:01:41,939
+dipulihkan setelah pembayaran. Dewan membutuhkan waktu berbulan-bulan untuk pulih dari serangan tersebut,
+
+18
+00:01:42,480 --> 00:01:47,019
+dan biaya pemulihan sistem mencapai jutaan dolar, sehingga mengurangi kemampuan sistem untuk melaksanakannya
+
+19
+00:01:47,019 --> 00:01:51,939
+layanan bisnis inti kepada warganya. Mari akhiri video ini dengan dua hal dewan Anda
+
+20
+00:01:51,939 --> 00:01:58,140
+dapat lakukan untuk melindungi dirinya sendiri. Untuk mengurangi kemungkinan jatuhnya korban, penting untuk menggunakan surat dan
+
+21
+00:01:58,140 --> 00:02:04,920
+alat pemfilteran situs web. Dewan Anda mungkin juga ingin mempertimbangkan untuk menggunakan antivirus perusahaan atau
+
+22
+00:02:04,920 --> 00:02:10,379
+produk anti-malware yang melindungi server dewan dan perangkat pengguna akhir secara bersamaan
+
+23
+00:02:10,539 --> 00:02:15,139
+perangkat lunak anti-virus yang melindungi perangkat pengguna akhir secara individual.
+
+24
+00:02:16,599 --> 00:02:21,620
+Terakhir, penting untuk berbicara dengan rekan TI untuk mempelajari lebih lanjut tentang keamanan dan mitigasi Anda
+
+25
+00:02:21,620 --> 00:02:27,319
+dewan telah ada untuk melindungi dirinya sendiri. Video ini adalah bagian dari seri yang dirancang untuk mengembangkan Anda
+
+26
+00:02:27,319 --> 00:02:33,319
+pemahaman tentang konsep digital, teknologi dan keamanan siber. Untuk mempelajari lebih lanjut tentang istilah kami
+
+27
+00:02:33,319 --> 00:02:35,099
+tertutup, silakan tonton video kami yang lain.
+
